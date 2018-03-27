@@ -1,0 +1,128 @@
+A:link    { color:#A18933; }
+A:visited { color:#D1BF7F; }
+
+A.submenu {font-family: "Comic Sans MS"; text-decoration:none; }
+A.submenu:link    {color:#C1A953;}
+A.submenu:visited {color:#C1A953;}
+A.submenu:hover   {color:#C1A953; text-decoration:underline; }
+
+H1 { font-family: "Monotype Corsiva"; text-align:center; color:#C1A953; margin-top:25; border-style:none }
+.figure H2 { font-family: "Monotype Corsiva"; text-align:center; color:#C1A953; margin-top:25; border-style:none }
+.figure H3 { font-family: "Monotype Corsiva"; text-align:left;   color:#C1A953; }
+.figure H4 { font-family: "Monotype Corsiva"; text-align:left;   color:#C1A953; }
+H2 { font-family: "Comic Sans MS"; text-align:center; color:#C1A953; margin-top:25; border-style:none }
+H3 { font-family: "Comic Sans MS"; text-align:left;   color:#C1A953; }
+H4 { font-family: "Comic Sans MS"; text-align:left;   color:#C1A953; }
+H5 { font-family: "Comic Sans MS"; text-align:left;    }
+
+P                        { text-indent:30px;   text-align:justify; margin-top:15; margin-bottom:0; }
+P:first-letter           { font-weight: bold;  color:#C1A953;      }
+P.note                   { text-indent:30px;   text-align:justify; font-size:smaller; }
+P.comment                { text-indent:0px;    text-align:justify; margin-left:0px; }
+P.excurse                { text-indent:0px;    text-align:justify; color:#808080; margin-left:0px; font-style:italic; }
+P.excurse:first-letter   { font-weight:normal; color:#808080;      }
+P.note-next              { text-indent:0px;    text-align:justify; font-size:smaller; margin-top:0; margin-bottom:0; }
+P.note-next:first-letter { font-weight:normal; color:#000000;      }
+P.right                  { text-indent:0px;    text-align:right;   }
+P.rightc                 { text-indent:0px;    text-align:right;   }
+P.copyright              { text-indent:0px;    text-align:right;   font-size:smaller; }
+P.right:first-letter     { font-weight:normal; color:#000000;      }
+P.rightc:first-letter    { font-weight:normal; }
+P.alarm                  { text-indent:0px;   text-align:justify; color:#FF0000; font-style:italic; }
+P.alarm:first-letter     { font-weight:normal;  color:#FF0000;      }
+P.q                      { text-align:center; }
+P.q                      { text-indent:0px; text-align:center; }
+
+SPAN.dt       { color:#A0A0A0; font-size:smaller;}
+SPAN.change   { color:#A18933; }
+SPAN.wchange  { color:#CC0000; }
+SPAN.news     { color:#C1A953; font-weight:bold;}
+SPAN.code     { color:#C1A953; font-family:monospace; font-weight:bold; padding-left:5; padding-right:5; }
+SPAN.code2    { color:#C1A953; font-family:"Lucida Console"; font-weight:bold; padding-left:5; padding-right:5; }
+SPAN.key      { color:#20A0A0; font-family:Arial;     font-weight:bold; padding-left:3; padding-right:3; 
+                border:solid .5pt; margin-left:2; margin-right:2;}
+SPAN.par      { color:#C1A953; font-family:Arial; font-weight:bold; }
+SPAN.example  { color:#0E83A5; font-family:Arial; font-weight:bold; }
+SPAN.warning  { color:#387070; font-family:Arial; font-weight:bold; }
+SPAN.pic-sign { color:#000000; font-family:Arial; font-weight:bold; font-size:smaller; }
+SPAN.very-important { color:#ff0000; font-family:Arial; font-weight:bold; }
+
+SUP          { font-size:smaller; }
+
+PRE         { text-indent:0px;    font-family:monospace; 
+              margin-left:0;      margin-right:0;           margin-top:0;    margin-bottom:0;
+              padding-top:15;     padding-bottom:15;        padding-left:10; padding-right:10; 
+              font-weight:normal; background-color:#F7F4E6; }
+PRE.note    { font-size:smaller; 
+              padding-top:7;     padding-bottom:7;        padding-left:10; padding-right:10; 
+              font-weight:normal; background-color:#F7F4E6; }
+PRE.console { text-indent:0px;    font-family:monospace; 
+              margin-left:0;      margin-right:0; 
+              padding-top:15;     padding-bottom:15;        padding-left:10; padding-right:10; 
+              font-size:9pt; font-weight:normal; color:#F7F4E6;            background-color:#006a6a; }
+
+IMG          { margin-left:30; margin-top:10; display:block;}
+IMG.centered { display:block; text-align:center;}
+IMG.inline   { margin-left:0;  margin-top:0;  display:inline;}
+
+LI          { text-align:justify; margin-top:0; margin-bottom:0; }
+
+UL.submenu-visible  { margin-top:0;  margin-bottom:0;  margin-right:0;  margin-left:10;  font-size:smaller; 
+                      padding-top:0; padding-bottom:0; padding-right:0; padding-left:0;
+                      visibility:visible; display:list-item; list-style-type:none; }
+UL.submenu-hidden   { margin-top:0;  margin-bottom:0;  margin-right:0;  margin-left:10;  font-size:smaller; 
+                      padding-top:0; padding-bottom:0; padding-right:0; padding-left:0;
+                      visibility:hidden;  display:none;  list-style-type:none; }
+UL.submenu-visible LI { display:list-item; list-style-type:none; text-indent:-8px;}
+UL.submenu-hidden  LI { display:list-item; list-style-type:none; text-indent:-8px;}
+
+UL.long  LI { margin-top:10;     }
+UL.short LI { margin-top:0;      }
+UL.br    LI { text-align:left;   }
+UL.note  LI { font-size:smaller; }
+UL.excurse LI { color:#808080; font-style:italic; }
+UL P  { text-indent:30px;   text-align:justify; margin-top:7; margin-bottom:0; }
+
+OL.long  LI { margin-top:10;     }
+OL.short LI { margin-top:0;      }
+OL.br    LI { text-align:left;   }
+OL.note  LI { font-size:smaller; }
+
+OL.excurse LI { text-indent:0px; text-align:justify; color:#808080; margin-left:0px; font-style:italic; }
+
+
+DL.contents    { margin-top:10;  margin-bottom:10; }
+DL.contents DT { color:#B87903; text-indent:10px; font-weight:bold; font-style:italic; margin-top:0;  margin-bottom:0; }
+DL.contents DD { text-align:justify; padding-top:-15;  padding-bottom:-15; line-height:1; margin-left:30; margin-right:0;  }
+DL.fields DT   { font-family:monospace; color:#000000; text-indent:10px; font-weight:bold; margin-top:0;  margin-bottom:0; padding-top:10; font-size:10pt; }
+
+DD P  { text-indent:30px;   text-align:justify; margin-top:7; margin-bottom:0; }
+
+
+TR             { vertical-align:top;                                                                 }
+TH             { font-family:Arial;        text-align:left;    color:#C1A953; 
+                 background-color:#F7F4E6; vertical-align:top;                                       }
+TR.center TH   { font-family:Arial;        text-align:center;  color:#C1A953; 
+                 background-color:#F7F4E6; vertical-align:top;                                       }
+TD             { vertical-align:top;       text-align:justify;                                       }
+TD.bgleft      { vertical-align:top;       text-align:justify; background-position:right;            }
+TD.bgright     { vertical-align:top;       text-align:justify; background-position:left              }
+TD.center      { vertical-align:top;       text-align:center;                                        }
+TD.centerbot   { vertical-align:bottom;    text-align:center;                                        }
+TD.centermid   { vertical-align:middle;    text-align:center;                                        }
+TD.over        { background-position:right top; background-repeat:no-repeat;                         }
+TD.overh       { background-position:top;  background-repeat:repeat-x;                               }
+TD.overv       { background-repeat:repeat-y;                                                         }
+TD.nojustify   { vertical-align:top;       text-align:left;                                          }
+TD.head        { vertical-align:middle;    text-align:left; background-color:#D1BF7F;                }
+TD.head-text   { vertical-align:middle;    text-align:center; 
+                 background-color:#FFFFFF; color:213F21;
+                 font-size:20pt; font-family:Arial; font-weight:bold; }
+TABLE.lined TD { padding:5px 0px 0px 5px;  border-style:none   none solid none; border-color:#F7F4E6;}
+TABLE.body     { background-color:#FFFFFF; }
+
+.char { BACKGROUND:#4282BB; }
+.int  { BACKGROUND:#94B49B; }
+.log  { BACKGROUND:#C882A2; }
+.date { BACKGROUND:#A585BA; }
+.dec  { BACKGROUND:#C6C095; }
